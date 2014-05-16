@@ -1,0 +1,26 @@
+<%- include header %>
+<div>post</div>
+<form method="post">
+  <div >
+    <label for="article-title" class="item">标题：</label>
+    <input class="title" type="text" name="title" id="artcile-title">
+  </div>
+  <div>
+      <input class="tag" type="text" name="tag1">
+      <input class="tag" type="text" name="tag2">
+      <input class="tag" type="text" name="tag3"
+  </div>
+  <div>
+      <label class="item" for="source">原文链接：</label>
+      <input class="source" id="source" type="text" name="source">  
+  <div>
+  <div class="desc-wrap">
+  <label for="recommend-reason" class="item">推荐理由：</label>
+	  <textarea class="desc" name="desc" id="recommend-reason" row="5" cols="100"></textarea>
+  </div>
+      <label class="item" for="content">全文：</label>
+      <textarea class="content" name="content" id="content" row="5" cols="100"></textarea>
+  </div>
+  <input class="submit" type="submit" value="收藏">
+</form>
+<%- include footer %>

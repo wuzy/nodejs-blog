@@ -1,0 +1,122 @@
+h1, h2, h3, h4, h5, h6, ul, li, body, html, p, div {
+	padding: 0;
+	margin: 0;
+}
+body {
+    background-color: #f2f2f0;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.header {
+	background-color: #404040;
+
+}
+
+.nav {
+	background-color: #404040;
+	margin: 0 auto;
+	width: 980px;
+	height: 100px;
+	line-height: 100px;
+}
+.nav .link {
+	text-decoration: none;
+	margin-left: 20px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.bd {
+	margin: 0 auto;
+	width: 980px;
+	background-color: #fff;
+}
+
+.item {
+	width: 40px;
+	font-weight: bold;
+}
+
+.submit {
+	padding: 4px 8px;
+	border-radius: 4px;
+	background-color: #ccd6dd;
+	font-size: 14px;
+}
+
+.title,
+.source,
+.desc,
+.content {
+	display: block;
+    border: 1px solid #55acee;
+    margin: 15px 0;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.source,
+.title {
+	height: 24px;
+	font-size: 14px;
+	color: #333;
+}
+
+
+.desc {
+	height: 50px;
+}
+
+.content {
+	height: 500px;
+}
+
+
+.edit {
+	margin: 3px;
+	padding: 2px 5px;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.edit:hover {
+	text-decoration: none;
+	background-color: #f00;
+	color: #fff;
+	-webkit-transition: color .2s linear;
+	transition: color .2s linear;
+}
+
+.tag {
+	display: inline-block;
+	*zoom: 1;
+	border: 1px solid black;
+	padding: 2px 5px;
+}
+
+.prepage a{
+	float:left;
+	text-decoration:none;
+	padding:.5em 1em;
+	color:#ff0000;
+	font-weight:bold;
+}
+.nextpage a{
+	float:right;
+	text-decoration:none;
+	padding:.5em 1em;
+	color:#ff0000;
+	font-weight:bold;
+}
+.prepage a:hover,
+.nextpage a:hover{
+	text-decoration:none;
+	background-color:#ff0000;
+	color:#f9f9f9;
+	-webkit-transition:color .2s linear;
+}

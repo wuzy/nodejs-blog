@@ -1,0 +1,16 @@
+.title {
+	width: 600px;
+	height: 24px;
+	font-size: 14px;
+	color: #333;
+}
+
+.desc {
+	height: 50px;
+	width: 600px;
+}
+
+.content {
+	height: 500px;
+	width: 600px;
+}

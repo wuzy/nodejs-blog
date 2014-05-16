@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title> Blog </title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <!--<h1><%= title %></h1>-->
+      <nav class="nav" data-title="<%= title %>">
+        <a class="link" title="上传" href="/upload" >上传</a>
+        <a class="link" href="/" title="主页">主页</a>
+        <% if (user) { %>
+          <a class="link" href="/post" title="发表">发表</a>
+          <a class="link" href="/logout" title="退出">退出</a>
+        <% } else { %>
+          <a class="link" href="/login" title="登录">登录</a>
+          <a class="link" href="/reg" title="注册">注册</a>
+        <% } %>
+      </nav>
+    </header>
+
+    <article class="bd">
+
+      <% if (success) { %>
+        <div class="success"><%= success %></div>
+      <% } %>
+      <% if (error) { %>
+        <div class="error"><%= error %></div>
+      <% } %>
